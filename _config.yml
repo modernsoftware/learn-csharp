@@ -1,4 +1,8 @@
 remote_theme: pmarsceill/just-the-docs
+title: Learn C#
+description: Learn the C# programming language
+baseurl: "/modernsoftware/learn-csharp" 
+url: "https://github.com/modernsoftware/learn-csharp" 
 search_enabled: true
 aux_links:
     "Learn C# on GitHub":
