@@ -1,10 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
-title: Learn C#
-description: Learn the C# programming language
-baseurl: "/modernsoftware/learn-csharp" 
-url: "https://github.com/modernsoftware/learn-csharp" 
 search_enabled: true
 aux_links:
     "Learn C# on GitHub":
-      - "//https://github.com/modernsoftware/learn-csharp"
+      - "https://github.com/modernsoftware/learn-csharp"
 footer_content: "Copyright &copy; 2019 Anil Ripla c/o Ray Consulting Limited. Distributed by an <a href=\"https://github.com/modernsoftware/learn-csharp/tree/master/LICENSE.txt\">MIT license.</a>"
