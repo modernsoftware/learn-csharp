@@ -4,13 +4,13 @@ has_children: false
 nav_order: 2
 ---
 
-## Getting Started
+# Getting Started
 
 You will write your code with the Microsoft Visual Studio IDE. You can download the IDE at the following link : 
 
 [Download Visual Studio Community Edition (Free)](https://visualstudio.microsoft.com/downloads/)
 
-### Create a console application
+## Create a console application
 
 1. Open Visual Studio
 
@@ -22,7 +22,7 @@ You will write your code with the Microsoft Visual Studio IDE. You can download 
 
 5. In the **Configure your new project** window, type or enter **HelloWorld** in the **Project name** box. Select a folder to store the project. Then, choose Create
 
-### Code
+## The application code
 
 In the code editor, you will see the following C# code:
 
@@ -42,7 +42,7 @@ namespace HelloWorld
 
 ```
 
-The code will write a line of text, **Hello World**, in the console window.
+The code will write a line of text, 'Hello World', in the console window.
 
 ### Run the application
 
