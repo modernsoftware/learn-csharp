@@ -4,6 +4,7 @@ has_children: false
 nav_order: 2
 description: Create your first console application
 ---
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"
@@ -15,6 +16,7 @@ description: Create your first console application
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 ****
 # Getting Started
 
