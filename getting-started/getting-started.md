@@ -3,8 +3,6 @@ title: Getting Started
 has_children: false
 nav_order: 2
 ---
-
-****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"
@@ -16,8 +14,6 @@ nav_order: 2
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-****
-
 # Getting Started
 
 You will write your code with the Microsoft Visual Studio IDE. You can download the IDE at the following link : 
@@ -79,7 +75,7 @@ this.page.url = 'https://csharp.rclapp.com/getting-started/getting-started.html'
 this.page.identifier = 'getting-started'; 
 };
 
-(function() { // DON'T EDIT BELOW THIS LINE
+(function() {
 var d = document, s = d.createElement('script');
 s.src = 'https://csharper.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
@@ -87,4 +83,6 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 
