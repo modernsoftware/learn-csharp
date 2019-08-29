@@ -1,9 +1,21 @@
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Introduction
 Learn the C# programming language with code examples.
 
 ## About the project
 
-'Learn C#' by Anil Ripla c/o Ray Consulting Limited
+'Learn C#' by Ray Consulting Limited
 
 ### License
 'Learn C#' is distributed by an MIT license.
@@ -14,14 +26,23 @@ When contributing to this repository, please first discuss the contribution you 
 ### Code of Conduct
 We are committed to fostering a welcoming community.
 
-## Membership
+****
+## Comments
+****
+<div id="disqus_thread"></div>
+<script>
 
-Join our membership list to find out about upcoming events and sponsored training sessions in your area.
+var disqus_config = function () {
+this.page.url = https://csharp.rclapp.com/;  
+this.page.identifier = home; 
+};
 
-[Sign up in the Membership List](https://mailchi.mp/98f6f104b079/moderndoftware)
-
-![Membership List](images/subscribe.PNG "Membership List")
-
-## Sponsorship
-
-Become  a sponsor for meet-ups, conferences or training events. Contact us to become a sponsor via email or create an issue. You can sponsor a training event for your own employees or public members.
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://csharper.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
