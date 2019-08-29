@@ -2,6 +2,7 @@
 title: Getting Started
 has_children: false
 nav_order: 2
+description: Create your first console application
 ---
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
@@ -14,9 +15,13 @@ nav_order: 2
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+****
 # Getting Started
 
-You will write your code with the Microsoft Visual Studio IDE. You can download the IDE at the following link : 
+You will write your code with the Microsoft Visual Studio IDE. In this article your will install Visual Studio and create a Console application.
+****
+
+You can download the IDE at the following link : 
 
 [Download Visual Studio Community Edition (Free)](https://visualstudio.microsoft.com/downloads/)
 
