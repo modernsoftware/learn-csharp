@@ -6,3 +6,5 @@ aux_links:
     "Edit on GitHub":
       - "https://github.com/modernsoftware/learn-csharp"
 footer_content: "Copyright &copy; 2019 Anil Ripla c/o Ray Consulting Limited. Distributed by an <a href=\"https://github.com/modernsoftware/learn-csharp/blob/master/LICENSE\">MIT license.</a>"
+plugins:
+  - jekyll-seo-tag

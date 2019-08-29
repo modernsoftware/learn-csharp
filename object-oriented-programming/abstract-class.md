@@ -2,11 +2,29 @@
 title: Abstract Class
 parent: Object Oriented Programming
 nav_order: 6
+description: A C# abstract class cannot be instantiated and can contain abstract and non-abstract members. Classes will inherit from an abstract class an extend its capabilities.
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+****
 # Abstract Class
 
 An abstract class cannot be instantiated and can contain abstract and non-abstract members. Classes will inherit from an abstract class an extend its capabilities.
+
+****
+
+The following code illustrates an abstract class.
 
 ```csharp
 using System;
@@ -78,10 +96,30 @@ The sum of 2 and 6 is 8
 The product of 2 and 6 is 12
 ```
 
-MathBase is an abstract class. The keyword abstract is used to declare an abstract class. The MathBase class has an abstract method named Execute that can be overridden by a class that inherits it. 
+MathBase is an abstract class. The keyword abstract is used to declare an abstract class. The MathBase class has an abstract method named Execute() that can be overridden by a class that inherits from it. 
 
-There are also two non-abstract properties of type integer named X and Y, that will be used to represent two numbers. 
+There are also two non-abstract properties named X and Y, that will be used to represent two numbers. 
 
-The Adder class inherits from the MathBase class and provides an implementation of the Execute method (it adds Y and Y) by overriding the abstract method. The Adder class has a constructor that initializes the Y and Y properties that it inherits from the MathBase class.
+The Adder class inherits from the MathBase class and provides an implementation for the Execute() method (it adds Y and Y) by overriding the abstract method. The Adder class has a constructor that initializes the X and Y properties that it inherits from the MathBase class.
 
 The Multiplier class inherits from the MathBase abstract class and multiplies the two numbers.
+
+****
+## Comments
+****
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = 'https://csharp.rclapp.com/object-oriented-programming/abstract-class.html';  
+this.page.identifier = 'abstract-class'; 
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://csharper.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
