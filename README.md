@@ -1,3 +1,10 @@
+---
+title: Introduction
+has_children: false
+nav_order: 1
+description: Learn the C# programming language with code examples.
+---
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"
