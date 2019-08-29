@@ -117,11 +117,11 @@ public class EmployeePayment
 The calculated pay is 1,500
 ```
 
-How would we calculate the pay if we have a new EmployeeClass, say 'EmployeeClassC'? 
+How would we calculate the pay if we had a new EmployeeClass, say employee class 'C'? 
 
 We would need to modify the EmployeePayment class. But this violates the principle, a class should be closed for modification. 
 
-Also, the EmployeePayment class is closed for extension, since the CalculatePay method cannot be overridden. A class should be open for extension.
+Also, the EmployeePayment class is closed for extension, since the CalculatePay() method cannot be overridden. A class should be open for extension.
 
 We can use an interface to fix the problem.
 
@@ -171,13 +171,13 @@ public class EmployeeClassB : IEmployeePayment
 The calculated pay is 1,500
 ```
 
-The interface IEmployeePayment can be inherited from a new EmployeeClass, say 'EmployeeClassC'. Therefore it is open for extension.
+The interface IEmployeePayment can be inherited from any new EmployeeClass, say employee class 'C'. Therefore, it is open for extension.
 
 You do not need to change the interface if you need to add a new payment class, you just need to provide a concrete implementation for the CalculatePay() method. It is closed for modification.
 
 ## L - Liskov substitution principle
 
-A child class should be replaceable (substitutable) with its parent class. Child class should not break parent classes. The following code violates this principle. 
+A child class should be replaceable (substitutable) with its parent class. Child classes should not break parent classes. The following code violates this principle. 
 
 If you run this code , you will get an exception.
 
@@ -242,7 +242,7 @@ In the code above, the child class, 'TemporaryEmployee', breaks the inherited pa
 
 # I - Interface segregation principle
 
-This principle states that any client should not be forced to use an interface which is irrelevant to it. 
+This principle states that a class should not be forced to use an interface which is irrelevant to it. 
 
 In the previous example, we saw the TemporaryEmployee class being forced to implement the CalculatePensionContribution() method that is irrelevant to it, since temporary employees do not receive a pension.
 
@@ -307,7 +307,7 @@ public class TemporaryEmployee : IEmployeePay
 The total pension contribution is 50
 ```
 
-The child classes now implements interfaces that are relevant to its operation.
+The child classes now implement interfaces that are relevant to its operation.
 
 ## D - Dependency inversion principle
 
@@ -315,7 +315,6 @@ This principle tells you not to write any tightly coupled code. It focuses on th
 
 ```csharp
 using System;
-using System.Collections.Generic;
 
 namespace LearnCSharp
 {
@@ -422,7 +421,9 @@ public class MessageBroker
 Message sent by SMS
 ```
 
-The MessageBroker now depends on the IMessageSender interface. The EmailSender and SMSSender class inherits fom the interface. This allows the MessageBroker class to send both Email and SMS.
+The MessageBroker now depends on the IMessageSender interface, thus satisfying the dependency inversion principle. 
+
+The EmailSender and SMSSender class inherits fom the interface. This allows the MessageBroker class to send both Email and SMS messages.
 
 
 
