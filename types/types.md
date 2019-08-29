@@ -19,7 +19,7 @@ description: C# types
 
 ****
 # Types
-C# is a strongly typed language. Every variable must be defined by a **type**. 
+C# is a strongly typed language. Every variable must be defined by a type. 
 ****
 
 The following is a list of common types used in C#:
