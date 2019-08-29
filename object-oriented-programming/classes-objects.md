@@ -4,7 +4,7 @@ parent: Object Oriented Programming
 nav_order: 2
 ---
 
-# Class and Objects
+# Classes and Objects
 
 ## Class
 
