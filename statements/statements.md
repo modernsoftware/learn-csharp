@@ -1,10 +1,10 @@
 ---
-title: Types
-has_children: true
+title: Statements
+has_children: false
 nav_order: 4
 ---
 
-## Statements
+# Statements
 
 Statements are used to change the flow of your code logic. Some of the most popular statements used in C# are :
 - if – else
@@ -137,7 +137,7 @@ namespace LearnCSharp
                 }
                 else
                 {
-                    Console.WriteLine($"Looking for Mary ...");
+                    Console.WriteLine("Looking for Mary ...");
                 }
             }
         }
