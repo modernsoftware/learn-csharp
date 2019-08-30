@@ -49,6 +49,7 @@ Math is a static class, we use the keyword static to declare that the class is s
 
 There is a static method named Add that adds two numbers. Since we do not need to instantiate an object, we can return the value from the Add() method by simply using : Math.Add(x,y)
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

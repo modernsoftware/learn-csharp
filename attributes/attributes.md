@@ -67,6 +67,7 @@ We add the attribute to the Adder class and specify the name of the developer wh
 
 Finally, we locate the Developer custom attribute for the Adder class and use it to print the name of the developer who wrote the class in the console window.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

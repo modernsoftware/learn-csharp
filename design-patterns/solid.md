@@ -428,6 +428,7 @@ The MessageBroker now depends on the IMessageSender interface, thus satisfying t
 
 The EmailSender and SMSSender class inherits fom the interface. This allows the MessageBroker class to send both Email and SMS messages.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

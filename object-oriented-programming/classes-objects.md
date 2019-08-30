@@ -110,6 +110,7 @@ The constructor takes an integer parameter named 'side'. When the class is insta
 
 We instantiate an object named mySquare and pass in an argument of 4 to the constructor. The constructor, will inturn, set the Side property to 4.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

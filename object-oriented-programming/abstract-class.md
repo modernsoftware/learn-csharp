@@ -91,6 +91,7 @@ The Adder class inherits from the MathBase class and provides an implementation 
 
 The Multiplier class inherits from the MathBase abstract class and multiplies the two numbers.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

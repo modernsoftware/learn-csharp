@@ -129,6 +129,7 @@ The Solid class has a property called Height. It also has a property named Shape
 
 Since IShape has a method for Area, we could use that in the Solid class to define a method to calculate the Volume , i.e. Shape.Area() * Height.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"

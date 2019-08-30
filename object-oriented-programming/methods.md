@@ -109,6 +109,7 @@ The second method takes two arguments, of type integer, for the length and bread
 
 The CalculateArea() method has two overloads.
 
+****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- horizontal_display_ad -->
 <ins class="adsbygoogle"
