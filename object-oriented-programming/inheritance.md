@@ -5,18 +5,6 @@ nav_order: 4
 description: Inheritance in C# allows you to extend the functionality of an existing class by creating a new class that derives from the inherited class.
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ****
 # Inheritance
 
