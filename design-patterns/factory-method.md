@@ -1,0 +1,116 @@
+---
+title: Factory Method
+parent: Design Patterns
+nav_order: 3
+description: The responsibility for instantiating objects is deferred to a factory.
+---
+
+# Factory Method
+The responsibility for instantiating objects is delegated to a factory.
+
+****
+
+The Factory Method is a frequently used creational design pattern.
+
+```csharp
+using System;
+
+namespace LearnCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Object creation is deferred to the factory
+            MessageSenderFactory factory = new MessageSenderFactory();
+            IMessageSender myMessageSender = factory.Create("sms");
+            Console.WriteLine($"{myMessageSender.TransmitMessage()}");
+        }
+    }
+}
+
+// Factory
+public class MessageSenderFactory
+{
+    public IMessageSender Create(string senderType)
+    {
+        if(senderType == "email")
+        {
+            return new Email();
+        }
+        else if(senderType == "sms")
+        {
+            return new SMS();
+        }
+        else
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+// Interface
+public interface IMessageSender
+{
+    string TransmitMessage();
+}
+
+// Concrete class A
+public class Email : IMessageSender
+{
+    public string TransmitMessage()
+    {
+        return "Message sent with email";
+    }
+}
+
+// Concrete class B
+public class SMS : IMessageSender
+{
+    public string TransmitMessage()
+    {
+        return "Message sent with SMS";
+    }
+}
+```
+
+```
+Message sent with SMS
+```
+
+The MessageSender factory has the responsibility for creating objects.
+
+The IMessageSender defines the interface for the objects that the factory create.
+
+****
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+****
+## Comments
+****
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = 'https://csharp.rclapp.com/design-patterns/factory-method.html';  
+this.page.identifier = 'factory-method'; 
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://csharper.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
