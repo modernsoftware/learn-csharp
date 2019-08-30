@@ -5,7 +5,6 @@ nav_order: 7
 description: In static classes, you do not need to instantiate objects.
 ---
 
-****
 # Static Class
 
 In static classes, you do not need to instantiate objects.
@@ -49,6 +48,18 @@ The sum of 2 and 6 is 8
 Math is a static class, we use the keyword static to declare that the class is static. 
 
 There is a static method named Add that adds two numbers. Since we do not need to instantiate an object, we can return the value from the Add() method by simply using : Math.Add(x,y)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ****
 ## Comments

@@ -5,7 +5,6 @@ nav_order: 6
 description: A C# abstract class cannot be instantiated and can contain abstract and non-abstract members. Classes will inherit from an abstract class an extend its capabilities.
 ---
 
-****
 # Abstract Class
 
 An abstract class cannot be instantiated and can contain abstract and non-abstract members. Classes will inherit from an abstract class an extend its capabilities.
@@ -91,6 +90,18 @@ There are also two non-abstract properties named X and Y, that will be used to r
 The Adder class inherits from the MathBase class and provides an implementation for the Execute() method (it adds Y and Y) by overriding the abstract method. The Adder class has a constructor that initializes the X and Y properties that it inherits from the MathBase class.
 
 The Multiplier class inherits from the MathBase abstract class and multiplies the two numbers.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ****
 ## Comments

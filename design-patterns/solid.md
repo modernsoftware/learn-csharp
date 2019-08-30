@@ -5,7 +5,6 @@ nav_order: 2
 description: SOLID is an acronym for 5 design principles when doing Object Oriented Programming.
 ---
 
-****
 # SOLID principles
 
 SOLID is an acronym for 5 design principles when doing Object Oriented Programming. These principles were introduced by Robert C. Martin in his 2000 paper 'Design Principles and Design Patterns'.
@@ -428,6 +427,18 @@ Message sent by SMS
 The MessageBroker now depends on the IMessageSender interface, thus satisfying the dependency inversion principle. 
 
 The EmailSender and SMSSender class inherits fom the interface. This allows the MessageBroker class to send both Email and SMS messages.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ****
 ## Comments

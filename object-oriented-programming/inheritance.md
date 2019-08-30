@@ -5,7 +5,6 @@ nav_order: 4
 description: Inheritance in C# allows you to extend the functionality of an existing class by creating a new class that derives from the inherited class.
 ---
 
-****
 # Inheritance
 
 Inheritance allows you to extend the functionality of an existing class by creating a new class that derives from the inherited class.
@@ -101,6 +100,18 @@ The Circle class has a virtual method called CalculateSurfaceArea() that calcula
 The Cylinder class inherits from the Circle class, however, the function to calculate the area of a circle is different from the function to calculate the area of a cylinder. 
 
 Therefore, in the Cylinder class, we can override the method to provide a function to calculate the surface area of a cylinder (as shown in the code). We use the keyword 'override' to override the method.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal_display_ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0640869077433160"
+     data-ad-slot="8459798581"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ****
 ## Comments
