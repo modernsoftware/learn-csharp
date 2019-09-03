@@ -13,7 +13,7 @@ SOLID is an acronym for 5 design principles when doing Object Oriented Programmi
 
 ## S - Single responsibility principle
 
-A class should only have one responsibility. Consider the following class:
+A class should have only one responsibility. Consider the following class:
 
 ```csharp
 using System;
@@ -42,7 +42,7 @@ namespace DesignPatterns
 
 The GenerateReport class violates the single responsibility principle since the SaveFile() and DownloadFile() methods are not directly related to generating a report. 
 
-We can fix this violation by creating separate classes of Saving and Downloading files.
+We can fix this violation by creating separate classes for saving and downloading files.
 
 ```csharp
 using System;
@@ -116,13 +116,14 @@ public class EmployeePayment
     }
 }
 ```
+**Output**
 ```
 The calculated pay is 1,500
 ```
 
 How would we calculate the pay if we had a new EmployeeClass, say employee class 'C'? 
 
-We would need to modify the EmployeePayment class. But this violates the principle, a class should be closed for modification. 
+We would need to modify the EmployeePayment class and add another 'if' statement. But this violates the principle, a class should be closed for modification. 
 
 Also, the EmployeePayment class is closed for extension, since the CalculatePay() method cannot be overridden. A class should be open for extension.
 
@@ -169,7 +170,7 @@ public class EmployeeClassB : IEmployeePayment
     }
 }
 ```
-
+**Output**
 ```
 The calculated pay is 1,500
 ```
@@ -305,16 +306,18 @@ public class TemporaryEmployee : IEmployeePay
     }
 }
 ```
-
+**Output**
 ```
 The total pension contribution is 50
 ```
 
-The child classes now implement interfaces that are relevant to its operation.
+The child classes now implement interfaces that are only relevant to its operation.
 
 ## D - Dependency inversion principle
 
 This principle tells you not to write any tightly coupled code. It focuses on the approach where the higher classes are not dependent on the lower classes, but instead, depend upon the abstraction of the lower classes. 
+
+Consider the following tightly coupled code.
 
 ```csharp
 using System;
@@ -356,11 +359,14 @@ public class MessageBroker
 }
    
 ```
+**Output**
 ```
 Message sent by email
 ```
 
-The MessageBroker class is tightly coupled to the Email class. If we, want to use SMS instead of Email, we will need to modify the MessageBroker class. This also violates the 'open - closed' principle.
+The MessageBroker class is tightly coupled to the Email class. 
+
+If we want to use SMS instead of Email, we will need to modify the MessageBroker class. This also violates the 'open - closed' principle.
 
 To fix the problem, we will introduce an abstraction for sending messages. The MessageBroker class will depend on this abstraction rather than the concrete Email class.
 
@@ -420,6 +426,7 @@ public class MessageBroker
     }
 }
 ```
+**Output**
 ```
 Message sent by SMS
 ```

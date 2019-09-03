@@ -2,7 +2,7 @@
 title: Factory Method
 parent: Design Patterns
 nav_order: 3
-description: The responsibility for instantiating objects is deferred to a factory.
+description: In the C# factory method responsibility for instantiating objects is deferred to a factory.
 ---
 
 # Factory Method
@@ -21,7 +21,7 @@ namespace LearnCSharp
     {
         static void Main(string[] args)
         {
-            // Object creation is deferred to the factory
+            // Object creation is delegated to the factory
             MessageSenderFactory factory = new MessageSenderFactory();
             IMessageSender myMessageSender = factory.Create("sms");
             Console.WriteLine($"{myMessageSender.TransmitMessage()}");
@@ -78,9 +78,9 @@ public class SMS : IMessageSender
 Message sent with SMS
 ```
 
-The MessageSender factory has the responsibility for creating objects.
+The MessageSenderFactory has been delegated the responsibility for creating the objects (Email and SMS).
 
-The IMessageSender defines the interface for the objects that the factory create.
+The IMessageSender defines the interface for the objects (Email and SMS) that the factory creates.
 
 ****
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

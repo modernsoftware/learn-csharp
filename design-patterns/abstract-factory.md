@@ -2,7 +2,7 @@
 title: Abstract Factory
 parent: Design Patterns
 nav_order: 4
-description: A factory that creates other factories, and these factories in turn create objects derived from interfaces.
+description: In the C# abstract factory method a factory creates other factories, and these factories in turn create objects derived from interfaces.
 ---
 
 # Abstract Factory

@@ -61,6 +61,10 @@ public class Developer : Attribute
 }
 ```
 
+```
+Anil wrote the class Adder
+```
+
 The Developer attribute has a property called Name that we will use to identity the developer who wrote a class.
 
 We add the attribute to the Adder class and specify the name of the developer who wrote the class as metadata for the class.
