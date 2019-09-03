@@ -5,6 +5,8 @@ nav_order: 7
 description: C# attributes provide a method of associating metadata with assemblies, classes, methods, properties, etc.
 ---
 
+![banner](/banner.png)
+
 # Attributes
 Attributes provide a method for associating metadata with assemblies, classes, methods, properties, etc.
 
