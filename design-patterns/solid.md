@@ -242,7 +242,9 @@ public class TemporaryEmployee : IEmployeePay
 }
 ```
 
-In the code above, the child class, 'TemporaryEmployee', breaks the inherited parent interface, 'IEmployeePay', since a temporary employee does not get a pension. This violates the Liskov substitution principle.
+In the code above, the child class, 'TemporaryEmployee', breaks the inherited parent interface, 'IEmployeePay', since it does not implement the CalculatePensionContribution() method. This is because a temporary employee does not get a pension. 
+
+This violates the Liskov substitution principle.
 
 # I - Interface segregation principle
 
@@ -311,7 +313,7 @@ public class TemporaryEmployee : IEmployeePay
 The total pension contribution is 50
 ```
 
-The child classes now implement interfaces that are only relevant to its operation.
+The child classes (TemporaryEmployee and PermanentEmployee) now implement interfaces that are only relevant to its operation.
 
 ## D - Dependency inversion principle
 
@@ -364,7 +366,7 @@ public class MessageBroker
 Message sent by email
 ```
 
-The MessageBroker class is tightly coupled to the Email class. 
+The MessageBroker class is tightly coupled to the Email class. This is depicted by the instantiation of the Email class using the 'new' keyword in the constructor of the MessageBroker class.
 
 If we want to use SMS instead of Email, we will need to modify the MessageBroker class. This also violates the 'open - closed' principle.
 
@@ -410,7 +412,7 @@ public class SMSSender : IMessageSender
     }
 }
 
-// Dependency inversion
+// Dependency inversion, class depends on abstraction
 public class MessageBroker
 {
     private readonly IMessageSender _messageSender;
