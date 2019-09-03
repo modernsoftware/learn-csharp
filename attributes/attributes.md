@@ -6,7 +6,7 @@ description: C# attributes provide a method of associating metadata with assembl
 ---
 
 # Attributes
-Attributes provide a method of associating metadata with assemblies, classes, methods, properties, etc.
+Attributes provide a method for associating metadata with assemblies, classes, methods, properties, etc.
 
 ****
 
@@ -60,7 +60,7 @@ public class Developer : Attribute
     }
 }
 ```
-
+**Output**
 ```
 Anil wrote the class Adder
 ```

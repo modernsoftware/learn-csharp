@@ -3,7 +3,7 @@ Learn the C# programming language with code examples.
 
 ## About the project
 
-'Learn C#' by Ray Consulting Limited
+'Learn C#' by Anil Ripla c/o Ray Consulting Limited
 
 ### License
 'Learn C#' is distributed by an MIT license.
