@@ -5,6 +5,8 @@ nav_order: 3
 description: A C# method carries out a function within a class.
 ---
 
+![banner](/banner.png)
+
 # Methods
 
 A method carries out a function within a class.
@@ -108,19 +110,6 @@ The first method takes one argument, of type integer, for the radius and returns
 The second method takes two arguments, of type integer, for the length and breadth and returns the area, of type integer, for the rectangle. 
 
 The CalculateArea() method has two overloads.
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments

@@ -5,6 +5,8 @@ nav_order: 3
 description: C# types
 ---
 
+![banner](/banner.png)
+
 # Types
 C# is a strongly typed language. Every variable must be defined by a type. 
 
@@ -120,19 +122,6 @@ namespace LearnCSharp
 ```
 The fourth number in the array is : 8
 ```
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments

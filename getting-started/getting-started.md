@@ -5,6 +5,8 @@ nav_order: 2
 description: Create your first console application
 ---
 
+![banner](/banner.png)
+
 # Getting Started
 
 You will write your code with the Microsoft Visual Studio IDE. In this article your will install Visual Studio and create a Console application.

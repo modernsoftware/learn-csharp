@@ -5,6 +5,8 @@ nav_order: 5
 description: A C# interface contains only the signatures of methods. A class that inherits from the interface must implement the members of the interface.
 ---
 
+![banner](/banner.png)
+
 # Interfaces
 
 An interface contains only the signatures of methods. A class that inherits from the interface must implement the members of the interface.
@@ -128,19 +130,6 @@ public class Solid
 The Solid class has a property called Height. It also has a property named Shape of type IShape (interface). 
 
 Since IShape has a method for Area, we could use that in the Solid class to define a method to calculate the Volume , i.e. Shape.Area() * Height.
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments

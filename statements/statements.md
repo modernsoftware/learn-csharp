@@ -5,6 +5,8 @@ nav_order: 4
 description: Statements in C# are used to change the flow of your code logic.
 ---
 
+![banner](/banner.png)
+
 # Statements
 
 Statements are used to change the flow of your code logic. 
@@ -156,19 +158,6 @@ Looking for Mary ...
 Looking for Mary ...
 Hey, Mary was found !
 ```
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments

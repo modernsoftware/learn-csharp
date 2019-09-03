@@ -5,6 +5,8 @@ nav_order: 3
 description: In the C# factory method responsibility for instantiating objects is deferred to a factory.
 ---
 
+![banner](/banner.png)
+
 # Factory Method
 The responsibility for instantiating objects is delegated to a factory.
 
@@ -81,19 +83,6 @@ Message sent with SMS
 The MessageSenderFactory has been delegated the responsibility for creating the objects (Email and SMS).
 
 The IMessageSender defines the interface for the objects (Email and SMS) that the factory creates.
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments

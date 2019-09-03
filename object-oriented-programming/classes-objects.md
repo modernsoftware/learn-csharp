@@ -5,6 +5,8 @@ nav_order: 2
 description: A C# class is the blueprint from which individual objects are created.
 ---
 
+![banner](/banner.png)
+
 # Classes and Objects
 
 Classes and objects form the basis of object oriented programming.
@@ -109,19 +111,6 @@ In the Square class, we have a constructor. The constructor has the same name as
 The constructor takes an integer parameter named 'side'. When the class is instantiated, the constructor runs first, and sets the Side property to the value (or argument) we provide to the parameter.
 
 We instantiate an object named mySquare and pass in an argument of 4 to the constructor. The constructor, will inturn, set the Side property to 4.
-
-****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ****
 ## Comments
