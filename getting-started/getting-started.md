@@ -62,19 +62,6 @@ The code will write a line of text, 'Hello World', in the console window.
 4. Close the console window when you are done.
 
 ****
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal_display_ad -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-0640869077433160"
-     data-ad-slot="8459798581"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-****
 ## Comments
 ****
 <div id="disqus_thread"></div>

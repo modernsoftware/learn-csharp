@@ -3,6 +3,7 @@ description: Learn C# with code examples
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 ga_tracking: UA-146945738-1
+color_scheme: "dark"
 aux_links:
     "Edit on GitHub":
       - "https://github.com/modernsoftware/learn-csharp"
