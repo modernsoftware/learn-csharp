@@ -9,7 +9,7 @@ description: Create your first console application
 
 # Getting Started
 
-You will write your code with the Microsoft Visual Studio IDE. In this article your will install Visual Studio and create a Console application.
+You will write your code with the Microsoft Visual Studio IDE. In this article, you will install Visual Studio and create a Console application.
 
 ****
 
